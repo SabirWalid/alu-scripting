@@ -3,7 +3,7 @@
 input = ARGV[o]
 
 # Define the regular expression pattern
-pattern = /School/
+pattern = /School/i
 
 # Check if the input matches the pettern
 if input =~ pattern
