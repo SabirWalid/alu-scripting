@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-# Retrieve the argument passed to the script
-input = ARGV[o]
+# Regular expressions that matches school
+puts ARGV[0].scan(/School/).join
 
 # Define the regular expression pattern
 pattern = /School/i
