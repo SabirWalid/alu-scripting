@@ -6,8 +6,11 @@ input = ARGV[o]
 pattern = /School/i
 
 # Check if the input matches the pettern
-if input =~ pattern
-  puts "Input matches the pattern 'School'"
+match = input.match(pattern)
+
+if match
+  puts "Matched: #{match[O]}"
+  puts "Length: #{match[O]} chars"
 else
-  puts "Input does not match the pattern 'School'"
+  puts "No match found"
 end
