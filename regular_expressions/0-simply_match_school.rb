@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # Retrieve the argument passed to the script
-input = ARGV[O]
+input = ARGV[o]
 
 # Define the regular expression pattern
 pattern = /School/
